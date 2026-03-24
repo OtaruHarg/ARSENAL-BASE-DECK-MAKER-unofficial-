@@ -1,0 +1,2694 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-color: gray;
+    z-index: 1;
+}
+
+.memo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 10000;
+}
+
+
+.MSPL_1_back{
+    position: absolute;
+    background-color: white;
+    top: 1vh;
+    left: 1vw;
+    right: auto;
+    height: 99vh;
+    width: 15vw;
+    margin: 0;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    z-index: 2;
+}
+
+.MS_1{
+    position: absolute;
+    background-color: none;
+    top: 15vh;
+    height: 11vw;
+    width: 7.5vw;
+    z-index: 3;
+}
+
+.PL_1{
+    position: absolute;
+    background-color: none;
+    top: 15vh;
+    left: 8.5vw;
+    height: 11vw;
+    width: 7.5vw;
+    z-index: 3;
+}
+
+
+
+.MSPL_2_back{
+    position: absolute;
+    background-color: white;
+    top: 1vh;
+    left: 19vw;
+    right: auto;
+    height: 99vh;
+    margin: 0;
+    width: 15vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    z-index: 2;
+}
+
+.MS_2{
+    position: absolute;
+    background-color: none;
+    top: 15vh;
+    height: 11vw;
+    width: 7.5vw;
+    z-index: 3;
+}
+
+.PL_2{
+    position: absolute;
+    background-color: none;
+    top: 15vh;
+    left: 8.5vw;
+    height: 11vw;
+    width: 7.5vw;
+    z-index: 3;
+}
+
+
+
+.MSPL_3_back{
+    position: absolute;
+    background-color: white;
+    top: 1vh;
+    left: 37vw;
+    right: auto;
+    height: 99vh;
+    width: 15vw;
+    margin: 0;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    z-index: 2;
+}
+
+.MS_3{
+    position: absolute;
+    background-color: none;
+    top: 15vh;
+    height: 11vw;
+    width: 7.5vw;
+    z-index: 3;
+}
+
+.PL_3{
+    position: absolute;
+    background-color: none;
+    top: 15vh;
+    left: 8.5vw;
+    height: 11vw;
+    width: 7.5vw;
+    z-index: 3;
+}
+
+
+
+.MSPL_4_back{
+    position: absolute;
+    background-color: white;
+    top: 1vh;
+    left: 55vw;
+    right: auto;
+    height: 99vh;
+    width: 15vw;
+    margin: 0;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    z-index: 2;
+}
+
+.MS_4{
+    position: absolute;
+    background-color: none;
+    top: 15vh;
+    height: 11vw;
+    width: 7.5vw;
+    z-index: 3;
+}
+
+.PL_4{
+    position: absolute;
+    background-color: none;
+    top: 15vh;
+    left: 8.5vw;
+    height: 11vw;
+    width: 7.5vw;
+    z-index: 3;
+}
+
+
+
+.MSPL_5_back{
+    position: absolute;
+    background-color: white;
+    top: 1vh;
+    bottom: 0;
+    right: auto;
+    left: 73vw;
+    height: 99vh;
+    width: 15vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin: 0;
+    z-index: 2;
+}
+
+.MS_5{
+    position: absolute;
+    background-color: none;
+    top: 15vh;
+    height: 11vw;
+    width: 7.5vw;
+    z-index: 3;
+}
+
+.PL_5{
+    position: absolute;
+    background-color: none;
+    top: 15vh;
+    left: 8.5vw;
+    height: 11vw;
+    width: 7.5vw;
+    z-index: 3;
+}
+
+
+.dan{
+    width: 5vw;
+    z-index: 3;
+}
+
+.ban{
+    width: 5vw;
+    z-index: 3;
+}
+
+.states{
+    position: absolute;
+    background-color: gray;
+    color: white;
+    bottom: 0;
+    height: 30vw;
+    width: 14vw;
+    z-index: 100;
+    padding-top: 1vw;
+    padding-left: 1vw;
+    z-index: 3;
+}
+
+/*MSPL1*/
+
+.blank{
+    position: absolute;
+    bottom: 28vw;
+    left: 2.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    z-index: 4;
+}
+
+.MS{
+    position: absolute;
+    bottom: 28vw;
+    left: 6.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.PL{
+    position: absolute;
+    bottom: 28vw;
+    left: 9.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.all{
+    position: absolute;
+    bottom: 28vw;
+    left: 12.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.cost{
+    position: absolute;
+    bottom: 26vw;
+    left: 2.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.cost_MS1{
+    position: absolute;
+    bottom: 26vw;
+    left: 6.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.cost_PL1{
+    position: absolute;
+    bottom: 26vw;
+    left: 9.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.cost_1{
+    position: absolute;
+    bottom: 26vw;
+    left: 12.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.move{
+    position: absolute;
+    bottom: 24vw;
+    left: 2.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.move_MS1{
+    position: absolute;
+    bottom: 24vw;
+    left: 6.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.move_PL1{
+    position: absolute;
+    bottom: 24vw;
+    left: 9.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.move_1{
+    position: absolute;
+    bottom: 24vw;
+    left: 12.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.long{
+    position: absolute;
+    bottom: 22vw;
+    left: 2.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.long_MS1{
+    position: absolute;
+    bottom: 22vw;
+    left: 6.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.long_PL1{
+    position: absolute;
+    bottom: 22vw;
+    left: 9.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.long_1{
+    position: absolute;
+    bottom: 22vw;
+    left: 12.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.middle{
+    position: absolute;
+    bottom: 20vw;
+    left: 2.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.middle_MS1{
+    position: absolute;
+    bottom: 20vw;
+    left: 6.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.middle_PL1{
+    position: absolute;
+    bottom: 20vw;
+    left: 9.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.middle_1{
+    position: absolute;
+    bottom: 20vw;
+    left: 12.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.HP{
+    position: absolute;
+    bottom: 18vw;
+    left: 2.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.HP_MS1{
+    position: absolute;
+    bottom: 18vw;
+    left: 6.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.HP_PL1{
+    position: absolute;
+    bottom: 18vw;
+    left: 9.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.HP_1{
+    position: absolute;
+    bottom: 18vw;
+    left: 12.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.link_1{
+    position: absolute;
+    bottom: 15vw;
+    left: 2.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 14vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.link_MSa1{
+    position: absolute;
+    bottom: 13vw;
+    left: 2.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 14vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.link_MSb1{
+    position: absolute;
+    bottom: 11vw;
+    left: 2.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 14vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.link_PLa1{
+    position: absolute;
+    bottom: 9vw;
+    left: 2.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 14vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.link_PLb1{
+    position: absolute;
+    bottom: 7vw;
+    left: 2.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 14vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+/*MSPL2*/
+
+.blank2{
+    position: absolute;
+    bottom: 28vw;
+    left: 20.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    z-index: 4;
+}
+
+.MS2{
+    position: absolute;
+    bottom: 28vw;
+    left: 24.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.PL2{
+    position: absolute;
+    bottom: 28vw;
+    left: 27.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.all2{
+    position: absolute;
+    bottom: 28vw;
+    left: 30.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.cost2{
+    position: absolute;
+    bottom: 26vw;
+    left: 20.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.cost_MS2{
+    position: absolute;
+    bottom: 26vw;
+    left: 24.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.cost_PL2{
+    position: absolute;
+    bottom: 26vw;
+    left: 27.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.cost_2{
+    position: absolute;
+    bottom: 26vw;
+    left: 30.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.move2{
+    position: absolute;
+    bottom: 24vw;
+    left: 20.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.move_MS2{
+    position: absolute;
+    bottom: 24vw;
+    left: 24.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.move_PL2{
+    position: absolute;
+    bottom: 24vw;
+    left: 27.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.move_2{
+    position: absolute;
+    bottom: 24vw;
+    left: 30.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.long2{
+    position: absolute;
+    bottom: 22vw;
+    left: 20.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.long_MS2{
+    position: absolute;
+    bottom: 22vw;
+    left: 24.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.long_PL2{
+    position: absolute;
+    bottom: 22vw;
+    left: 27.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.long_2{
+    position: absolute;
+    bottom: 22vw;
+    left: 30.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.middle2{
+    position: absolute;
+    bottom: 20vw;
+    left: 20.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.middle_MS2{
+    position: absolute;
+    bottom: 20vw;
+    left: 24.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.middle_PL2{
+    position: absolute;
+    bottom: 20vw;
+    left: 27.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.middle_2{
+    position: absolute;
+    bottom: 20vw;
+    left: 30.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.HP2{
+    position: absolute;
+    bottom: 18vw;
+    left: 20.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.HP_MS2{
+    position: absolute;
+    bottom: 18vw;
+    left: 24.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.HP_PL2{
+    position: absolute;
+    bottom: 18vw;
+    left: 27.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.HP_2{
+    position: absolute;
+    bottom: 18vw;
+    left: 30.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.link_2{
+    position: absolute;
+    bottom: 15vw;
+    left: 20.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 14vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.link_MSa2{
+    position: absolute;
+    bottom: 13vw;
+    left: 20.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 14vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.link_MSb2{
+    position: absolute;
+    bottom: 11vw;
+    left: 20.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 14vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.link_PLa2{
+    position: absolute;
+    bottom: 9vw;
+    left: 20.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 14vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.link_PLb2{
+    position: absolute;
+    bottom: 7vw;
+    left: 20.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 14vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+/*MSPL3*/
+
+.blank3{
+    position: absolute;
+    bottom: 28vw;
+    left: 38.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    z-index: 4;
+}
+
+.MS3{
+    position: absolute;
+    bottom: 28vw;
+    left: 42.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.PL3{
+    position: absolute;
+    bottom: 28vw;
+    left: 45.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.all3{
+    position: absolute;
+    bottom: 28vw;
+    left: 48.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.cost3{
+    position: absolute;
+    bottom: 26vw;
+    left: 38.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.cost_MS3{
+    position: absolute;
+    bottom: 26vw;
+    left: 42.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.cost_PL3{
+    position: absolute;
+    bottom: 26vw;
+    left: 45.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.cost_3{
+    position: absolute;
+    bottom: 26vw;
+    left: 48.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.move3{
+    position: absolute;
+    bottom: 24vw;
+    left: 38.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.move_MS3{
+    position: absolute;
+    bottom: 24vw;
+    left: 42.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.move_PL3{
+    position: absolute;
+    bottom: 24vw;
+    left: 45.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.move_3{
+    position: absolute;
+    bottom: 24vw;
+    left: 48.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.long3{
+    position: absolute;
+    bottom: 22vw;
+    left: 38.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.long_MS3{
+    position: absolute;
+    bottom: 22vw;
+    left: 42.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.long_PL3{
+    position: absolute;
+    bottom: 22vw;
+    left: 45.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.long_3{
+    position: absolute;
+    bottom: 22vw;
+    left: 48.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.middle3{
+    position: absolute;
+    bottom: 20vw;
+    left: 38.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.middle_MS3{
+    position: absolute;
+    bottom: 20vw;
+    left: 42.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.middle_PL3{
+    position: absolute;
+    bottom: 20vw;
+    left: 45.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.middle_3{
+    position: absolute;
+    bottom: 20vw;
+    left: 48.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.HP3{
+    position: absolute;
+    bottom: 18vw;
+    left: 38.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.HP_MS3{
+    position: absolute;
+    bottom: 18vw;
+    left: 42.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.HP_PL3{
+    position: absolute;
+    bottom: 18vw;
+    left: 45.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.HP_3{
+    position: absolute;
+    bottom: 18vw;
+    left: 48.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.link_3{
+    position: absolute;
+    bottom: 15vw;
+    left: 38.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 14vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.link_MSa3{
+    position: absolute;
+    bottom: 13vw;
+    left: 38.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 14vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.link_MSb3{
+    position: absolute;
+    bottom: 11vw;
+    left: 38.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 14vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.link_PLa3{
+    position: absolute;
+    bottom: 9vw;
+    left: 38.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 14vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.link_PLb3{
+    position: absolute;
+    bottom: 7vw;
+    left: 38.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 14vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+/*MSPL4*/
+
+.blank4{
+    position: absolute;
+    bottom: 28vw;
+    left: 56.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    z-index: 4;
+}
+
+.MS4{
+    position: absolute;
+    bottom: 28vw;
+    left: 60.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.PL4{
+    position: absolute;
+    bottom: 28vw;
+    left: 63.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.all4{
+    position: absolute;
+    bottom: 28vw;
+    left: 66.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.cost4{
+    position: absolute;
+    bottom: 26vw;
+    left: 56.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.cost_MS4{
+    position: absolute;
+    bottom: 26vw;
+    left: 60.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.cost_PL4{
+    position: absolute;
+    bottom: 26vw;
+    left: 63.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.cost_4{
+    position: absolute;
+    bottom: 26vw;
+    left: 66.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.move4{
+    position: absolute;
+    bottom: 24vw;
+    left: 56.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.move_MS4{
+    position: absolute;
+    bottom: 24vw;
+    left: 60.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.move_PL4{
+    position: absolute;
+    bottom: 24vw;
+    left: 63.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.move_4{
+    position: absolute;
+    bottom: 24vw;
+    left: 66.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.long4{
+    position: absolute;
+    bottom: 22vw;
+    left: 56.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.long_MS4{
+    position: absolute;
+    bottom: 22vw;
+    left: 60.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.long_PL4{
+    position: absolute;
+    bottom: 22vw;
+    left: 63.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.long_4{
+    position: absolute;
+    bottom: 22vw;
+    left: 66.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.middle4{
+    position: absolute;
+    bottom: 20vw;
+    left: 56.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.middle_MS4{
+    position: absolute;
+    bottom: 20vw;
+    left: 60.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.middle_PL4{
+    position: absolute;
+    bottom: 20vw;
+    left: 63.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.middle_4{
+    position: absolute;
+    bottom: 20vw;
+    left: 66.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.HP4{
+    position: absolute;
+    bottom: 18vw;
+    left: 56.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.HP_MS4{
+    position: absolute;
+    bottom: 18vw;
+    left: 60.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.HP_PL4{
+    position: absolute;
+    bottom: 18vw;
+    left: 63.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.HP_4{
+    position: absolute;
+    bottom: 18vw;
+    left: 66.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.link_4{
+    position: absolute;
+    bottom: 15vw;
+    left: 56.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 14vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.link_MSa4{
+    position: absolute;
+    bottom: 13vw;
+    left: 56.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 14vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.link_MSb4{
+    position: absolute;
+    bottom: 11vw;
+    left: 56.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 14vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.link_PLa4{
+    position: absolute;
+    bottom: 9vw;
+    left: 56.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 14vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.link_PLb4{
+    position: absolute;
+    bottom: 7vw;
+    left: 56.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 14vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+/*MSPL5*/
+
+.blank5{
+    position: absolute;
+    bottom: 28vw;
+    left: 74.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    z-index: 4;
+}
+
+.MS5{
+    position: absolute;
+    bottom: 28vw;
+    left: 78.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.PL5{
+    position: absolute;
+    bottom: 28vw;
+    left: 81.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.all5{
+    position: absolute;
+    bottom: 28vw;
+    left: 84.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.cost5{
+    position: absolute;
+    bottom: 26vw;
+    left: 74.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.cost_MS5{
+    position: absolute;
+    bottom: 26vw;
+    left: 78.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.cost_PL5{
+    position: absolute;
+    bottom: 26vw;
+    left: 81.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.cost_5{
+    position: absolute;
+    bottom: 26vw;
+    left: 84.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.move5{
+    position: absolute;
+    bottom: 24vw;
+    left: 74.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.move_MS5{
+    position: absolute;
+    bottom: 24vw;
+    left: 78.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.move_PL5{
+    position: absolute;
+    bottom: 24vw;
+    left: 81.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.move_5{
+    position: absolute;
+    bottom: 24vw;
+    left: 84.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.long5{
+    position: absolute;
+    bottom: 22vw;
+    left: 74.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.long_MS5{
+    position: absolute;
+    bottom: 22vw;
+    left: 78.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.long_PL5{
+    position: absolute;
+    bottom: 22vw;
+    left: 81.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.long_5{
+    position: absolute;
+    bottom: 22vw;
+    left: 84.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.middle5{
+    position: absolute;
+    bottom: 20vw;
+    left: 74.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.middle_MS5{
+    position: absolute;
+    bottom: 20vw;
+    left: 78.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.middle_PL5{
+    position: absolute;
+    bottom: 20vw;
+    left: 81.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.middle_5{
+    position: absolute;
+    bottom: 20vw;
+    left: 84.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.HP5{
+    position: absolute;
+    bottom: 18vw;
+    left: 74.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.HP_MS5{
+    position: absolute;
+    bottom: 18vw;
+    left: 78.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.HP_PL5{
+    position: absolute;
+    bottom: 18vw;
+    left: 81.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.HP_5{
+    position: absolute;
+    bottom: 18vw;
+    left: 84.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.link_5{
+    position: absolute;
+    bottom: 15vw;
+    left: 74.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 14vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.link_MSa5{
+    position: absolute;
+    bottom: 13vw;
+    left: 74.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 14vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.link_MSb5{
+    position: absolute;
+    bottom: 11vw;
+    left: 74.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 14vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.link_PLa5{
+    position: absolute;
+    bottom: 9vw;
+    left: 74.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 14vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.link_PLb5{
+    position: absolute;
+    bottom: 7vw;
+    left: 74.5vw;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    height: 2vw;
+    width: 14vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
