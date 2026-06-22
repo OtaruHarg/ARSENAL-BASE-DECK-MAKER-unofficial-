@@ -22,9 +22,31 @@ const sleep = msec => new Promise(resolve => setTimeout(resolve, msec));
 window.onload = start();
 
 async function start() {
+    document.getElementById('excelFile').addEventListener('change', async (event) => {
+        try {
+            const file = event.target.files[0];
+            if (!file) {
+                alert("ファイルを選択してください");
+                return;
+            }
+            const data = await file.arrayBuffer();
+            const workbook = XLSX.read(data);
+            const sheetName = workbook.SheetNames[0];
+            const sheet = workbook.Sheets[sheetName];
+            const json = XLSX.utils.sheet_to_json(sheet, { defval: "" });
+            console.log(json);
+            alert("読み込み成功！コンソールを確認してください。");
+        } catch (error) {
+            console.error(error);
+            alert("Excelの読み込みに失敗しました。");
+        }
+    });
     await sleep(3000);
     loops();
 }
+
+
+
 
 
 async function loops(){
