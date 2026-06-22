@@ -22,7 +22,6 @@ const sleep = msec => new Promise(resolve => setTimeout(resolve, msec));
 window.onload = start();
 
 async function start() {
-    document.getElementById('excelFile').addEventListener = "https://docs.google.com/spreadsheets/d/1bJ_cmwNJxuqtrXrOvNg-fF6TkeYxEQDa/edit?usp=drive_link&ouid=111491060245000867748&rtpof=true&sd=true";
     await sleep(3000);
     loops();
 }
