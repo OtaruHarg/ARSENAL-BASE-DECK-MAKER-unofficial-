@@ -55,7 +55,7 @@ async function loops(){
             await sleep(10);
             joutai_MS1 = document.getElementById('MS1g');
             console.log(joutai_MS1);
-            if (joutai_MS1.complete && joutai_MS1.naturalWidth !== 0) {
+            if (joutai_MS1.complete && joutai_MS1.naturalWidth != 0) {
                 console.log('異常なし');
             } else {
                 console.log('エラー');
