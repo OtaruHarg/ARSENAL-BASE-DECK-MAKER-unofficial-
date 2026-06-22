@@ -1123,8 +1123,8 @@ async function loops(){
                 MS2_link_a = "-";
                 MS2_link_b = "-";
                 break;
-                */
         }
+        */
         //ミス入力対策
         if(fin != "true"){
             if(!MS2_cost){
