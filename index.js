@@ -63,6 +63,7 @@ async function loops(){
             }
         }
         //ステータス入力プロトコル
+        /*
         MS1_ban = Number(MS1_ban);
         switch (MS1_dan){
             case "AB01":
@@ -1122,6 +1123,7 @@ async function loops(){
                 MS2_link_a = "-";
                 MS2_link_b = "-";
                 break;
+                */
         }
         //ミス入力対策
         if(fin != "true"){
