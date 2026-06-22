@@ -1124,7 +1124,6 @@ async function loops(){
                 MS2_link_b = "-";
                 break;
         }
-        */
         //ミス入力対策
         if(fin != "true"){
             if(!MS2_cost){
@@ -5796,5 +5795,6 @@ async function loops(){
             document.getElementById("middle_5").textContent = all_5_middle;
             document.getElementById("HP_5").textContent = all_5_hp;
         }
+        */
     }
 }
